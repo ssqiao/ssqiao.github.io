@@ -46,4 +46,9 @@ feed.xml：尝试修改里面的boleizhou相关信息，替换成我的。或者
 
 
 整体布局：assets资源文件夹，index.html主页为全局需要修改的，需要综合结合周博磊和郑海永的主页内容进行设计
-	Home-news(about, contact, news)，Research-publication (howto, funding, publications, patents, codes&data), Teaching-teaching(courses, projects, publications), People-lab(研究内容，招聘要求，已毕业，在读）, Talks-talks, Awards&Service-others（Awards， service， personal） 
+	Home-news(about, contact, news)，Research-research (howto, funding, publications, patents, codes&data), Teaching-teaching(courses, projects, publications), People-lab(研究内容，招聘要求，已毕业，在读）, Talks-talks, Awards&Service-others（Awards， service， personal） 
+
+
+
+
+
