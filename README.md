@@ -2,7 +2,7 @@
 
 bundle exec jekyll serve
 
-bundle exec jekyll build --lsi --destination ../boleizhou.github.io
+bundle exec jekyll build --lsi --destination ../ssqiao.github.io
 
 original link: https://github.com/alshedivat/al-folio
 
