@@ -16,6 +16,8 @@
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;
   --global-distill-app-color: #828282;
+  --global-td-bg-color: #ddeecc;
+  --global-th-bg-color: #eeeecc;
 }
 :root .fa-sun {
   display: none;
@@ -37,6 +39,8 @@ html[data-theme=dark] {
   --global-footer-text-color: #1c1c1c;
   --global-footer-link-color: #000000;
   --global-distill-app-color: #e8e8e8;
+  --global-td-bg-color: #006400;
+  --global-th-bg-color: #FFC107;
 }
 html[data-theme=dark] .fa-sun {
   padding-left: 10px;
@@ -46,6 +50,12 @@ html[data-theme=dark] .fa-sun {
 html[data-theme=dark] .fa-moon {
   display: none;
 }
+
+html {
+  scroll-padding-top: 65px; /* 假设导航栏高度为 60px */
+  scroll-behavior: auto;
+}
+
 
 /******************************************************************************
  * Content
@@ -160,6 +170,7 @@ blockquote {
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
+
 
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
