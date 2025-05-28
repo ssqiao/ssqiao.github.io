@@ -1,0 +1,148 @@
+/* Michael Olson's tweaked Muse stylesheet
+
+   Elements for most of my web site.
+*/
+
+/* Footnote */
+
+.navfoot hr {
+  background-color: #fffafa;
+  margin-bottom: 17px;
+  padding: 0.5px;
+}
+
+.navfoot table {
+  border-spacing: 3px;
+  border-width: 0;
+  clear: right;
+  margin: 0;
+  padding: 1px;
+}
+
+.navfoot th {
+  font-size: 100%;
+  border-width: 3px;
+}
+
+.navfoot td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: #f8f8ff;
+}
+
+.navfoot img {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+/* Table of Contents */
+
+.contents {
+  background: var(--global-bg-color);     /* #fffafa; #edf2f2; */
+  color: white;
+  border-right: 7px solid #e0e9e9;
+  content: "";
+  display: inline-table;
+  float: left;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+dl.contents {
+  background-color: #f0e68c; /* #e6e6fa lavender */
+  background: blue;
+  display: block;
+  float: left;
+  font-size: small;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  padding-bottom: 5px;
+}
+
+dt.contents {
+  clear: left;
+  display: block;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin: 0;
+  text-align: left;
+}
+
+dd.contents {
+  margin: 0;
+}
+
+.contents dd dt.contents {
+  display: list-item;
+}
+
+.contents a:link, .contents a:visited {
+  color: var(--global-text-color);;
+  display: block;
+  padding: 0 16px;
+  line-height: 16px
+}
+
+.contents a:hover { 
+  font-family: "comic sans ms", Courier, Bitstream Vera Sans, Tahoma, sans-serif;
+  color: #000;
+  background: #F0F0F0;
+  border-top: 2px solid #F0F0F0;
+  border-left: 1px solid #F0F0F0;
+  padding: 0 15px 0 16px;
+  line-height: 14px;
+  position: static;
+  left: 0px;
+  top: 0px
+}
+
+/* Planner */
+
+.taskA { color: red }
+
+.taskB { color: green }
+
+.taskC { color: navy }
+
+.taskX {
+  color: #696969;               /* dim gray */
+  text-decoration: line-through;
+}
+
+/* Source coloring */
+
+.builtin {
+  /* font-lock-builtin-face */
+  color: #9370db;
+}
+
+.comment {
+  /* font-lock-comment-face */
+  color: #b22222;
+}
+
+.constant {
+  /* font-lock-constant-face */
+  color: #b8860b;
+}
+
+.doc {
+}
+
+.function-name {
+  /* font-lock-function-name-face */
+  color: #0000ff;
+}
+
+.keyword {
+  /* font-lock-keyword-face */
+  color: #a020f0;
+}
+  
+.string {
+  /* font-lock-string-face */
+  color: #228b22;
+}
