@@ -618,4 +618,8 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   color: var(--global-hover-color) !important;
 }
 
+.toggle-container, #light-toggle {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=main.css.map */
